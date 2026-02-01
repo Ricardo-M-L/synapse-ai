@@ -1,0 +1,19 @@
+# Skills Directory
+
+Place your custom skills here. Skills should be JavaScript or TypeScript files that export a Skill object.
+
+Example:
+
+```typescript
+export default {
+  name: 'my_skill',
+  description: 'Does something useful',
+  parameters: [
+    { name: 'input', type: 'string', required: true, description: 'Input data' }
+  ],
+  execute: async (params) => {
+    // Your skill logic here
+    return { success: true, data: 'Result' };
+  }
+};
+```

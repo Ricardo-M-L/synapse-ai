@@ -1,0 +1,74 @@
+{
+  "name": "synapse-ai",
+  "version": "1.0.0",
+  "description": "Synapse AI - A lightweight, token-efficient personal AI assistant",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "synapse": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "ai",
+    "assistant",
+    "chatbot",
+    "automation",
+    "open-source",
+    "local-first",
+    "privacy"
+  ],
+  "author": "ricardo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricardo/synapse-ai.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "openai": "^4.77.0",
+    "ws": "^8.18.0",
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "helmet": "^8.0.0",
+    "compression": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "commander": "^12.1.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.1.0",
+    "inquirer": "^12.0.0",
+    "fs-extra": "^11.2.0",
+    "yaml": "^2.6.0",
+    "cron": "^3.1.0",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^23.9.0",
+    "playwright": "^1.49.0",
+    "axios": "^1.7.8",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/ws": "^8.5.13",
+    "@types/express": "^5.0.0",
+    "@types/cors": "^2.8.17",
+    "@types/compression": "^1.7.5",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node-cron": "^3.0.11",
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0",
+    "vitest": "^2.1.0",
+    "eslint": "^9.16.0",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "prettier": "^3.4.0"
+  }
+}
