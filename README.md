@@ -65,7 +65,7 @@ synapse chat
 
 ```bash
 # Clone the repository
-git clone https://github.com/ricardo/synapse-ai.git
+git clone https://github.com/Ricardo-M-L/synapse-ai.git
 cd synapse-ai
 
 # Install dependencies
@@ -292,7 +292,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - 📧 Email: support@synapse-ai.dev
 - 💬 Discord: [Join our community](https://discord.gg/synapse-ai)
-- 🐛 Issues: [GitHub Issues](https://github.com/ricardo/synapse-ai/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/Ricardo-M-L/synapse-ai/issues)
 
 ---
 
