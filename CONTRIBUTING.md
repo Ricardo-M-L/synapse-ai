@@ -1,65 +1,66 @@
 # Contributing to Synapse AI
 
-Thank you for your interest in contributing to Synapse AI! We welcome contributions from the community.
+感谢你的贡献！🎉
 
-## 🚀 Getting Started
+## 快速开始
 
-1. Fork the repository
-2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/synapse-ai.git`
-3. Create a branch: `git checkout -b feature/your-feature-name`
+1. Fork 本仓库
+2. 克隆你的 Fork：`git clone https://github.com/你的用户名/synapse-ai.git`
+3. 创建分支：`git checkout -b feature/你的功能`
+4. 提交更改：`git commit -m 'Add: 功能描述'`
+5. 推送分支：`git push origin feature/你的功能`
+6. 创建 Pull Request
 
-## 📋 Development Setup
+## 开发环境
 
 ```bash
-# Install dependencies
+# 安装依赖
 npm install
 
-# Build the project
-npm run build
+# 开发模式
+npm run dev
 
-# Run tests
+# 运行测试
 npm test
+
+# 代码检查
+npm run lint
 ```
 
-## 📝 Code Style
+## 提交规范
 
-- Use TypeScript for all new code
-- Follow the existing code style
-- Run `npm run lint` before committing
-- Run `npm run format` to format code
+- `feat:` 新功能
+- `fix:` 修复 Bug
+- `docs:` 文档更新
+- `style:` 代码格式调整
+- `refactor:` 代码重构
+- `test:` 测试相关
+- `chore:` 构建/工具相关
 
-## 🧪 Testing
+## 添加新 Skill
 
-- Write tests for new features
-- Ensure all tests pass before submitting PR
-- Run `npm test` to execute the test suite
+在 `skills/` 目录下创建新的 Markdown 文件：
 
-## 📤 Submitting Changes
+```markdown
+---
+name: my-skill
+description: 描述这个技能的作用
+---
 
-1. Commit your changes with a clear message
-2. Push to your fork
-3. Create a Pull Request with:
-   - Clear description of changes
-   - Related issue numbers (if applicable)
-   - Screenshots (for UI changes)
+# 使用说明
 
-## 🐛 Reporting Bugs
+详细说明这个技能如何使用...
+```
 
-Please use GitHub Issues to report bugs. Include:
-- Steps to reproduce
-- Expected behavior
-- Actual behavior
-- Environment details (OS, Node version, etc.)
+## 问题反馈
 
-## 💡 Feature Requests
+- 🐛 Bug 报告：[Issues](https://github.com/Ricardo-M-L/synapse-ai/issues)
+- 💡 功能建议：[Discussions](https://github.com/Ricardo-M-L/synapse-ai/discussions)
 
-We welcome feature requests! Please open an issue with:
-- Clear description of the feature
-- Use cases
-- Potential implementation approach (optional)
+## 行为准则
 
-## 📜 Code of Conduct
+- 友善交流，尊重他人
+- 接受建设性批评
+- 关注社区最佳利益
 
-Be respectful and constructive in all interactions.
-
-Thank you for contributing! 🎉
+再次感谢你的贡献！⭐
