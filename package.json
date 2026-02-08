@@ -50,7 +50,7 @@
     "yaml": "^2.6.0",
     "cron": "^3.1.0",
     "node-cron": "^3.0.3",
-    "puppeteer": "^23.9.0",
+    "puppeteer": "^24.37.2",
     "playwright": "^1.49.0",
     "axios": "^1.7.8",
     "zod": "^3.23.0"
